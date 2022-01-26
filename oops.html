@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Albin S | A CyberVerse Explorer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/css/images/favicon.ico" type="image/x-icon">
+
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+	<script>
+            document.addEventListener("contextmenu", e=> {
+                alert("Sorry! Right click disabled");
+                e.preventDefault();
+            });
+        </script>
+
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Oop's Somting Wrong</h1>
+						<p>MayBe Page Is In Development !<br>
+					Can't Find It, Try Visiting Another Time. <a href="index.html">Return Back</a></p>
+						
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						
+						<span class="copyright">SourceCode Available Here For Free. <a href="https://github.com/albinshiby/albinshiby.github.io">ThankYou</a></span>
+					</footer>
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
